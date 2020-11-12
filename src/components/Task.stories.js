@@ -33,3 +33,12 @@ Archived.args = {
     state: "TASK_ARCHIVED",
   },
 };
+const tooLongTitle = `TooLongTitleToShowHowItLooksTooLongTitleToShowHowItLooksTooLongTitleToShowHowItLooksTooLongTitleToShowHowItLooksTooLongTitleToShowHowItLooksTooLongTitleToShowHowItLooksTooLongTitleToShowHowItLooksTooLongTitleToShowHowItLooksTooLongTitleToShowHowItLooksTooLongTitleToShowHowItLooksTooLongTitleToShowHowItLooksTooLongTitleToShowHowItLooksTooLongTitleToShowHowItLooksTooLongTitleToShowHowItLooksTooLongTitleToShowHowItLooks`;
+
+export const TooLongTitle = Template.bind({});
+TooLongTitle.args = {
+  task: {
+    ...Default.args.task,
+    title: tooLongTitle,
+  },
+};
